@@ -10,6 +10,9 @@ begin
     gem.email = "diapriid@gmail.com"
     gem.homepage = "http://github.com/mjy/obo_parser"
     gem.authors = ["mjy"]
+
+    RUBY_VERSION.to_f >= 1.9 ? gem.add_dependency("ruby-debug19") : gem.add_dependency("ruby-debug")
+    
     # gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
