@@ -11,6 +11,7 @@ begin
     gem.homepage = "http://github.com/mjy/obo_parser"
     gem.authors = ["mjy"]
 
+    gem.add_dependency 'rgl', '~> 0.4.0'
     RUBY_VERSION.to_f >= 1.9 ? gem.add_dependency("ruby-debug19") : gem.add_dependency("ruby-debug")
     
     # gem.add_development_dependency "thoughtbot-shoulda", ">= 0"

@@ -11,6 +11,7 @@ module OboParser
   require File.expand_path(File.join(File.dirname(__FILE__), 'parser'))
   require File.expand_path(File.join(File.dirname(__FILE__), 'lexer'))
   require File.expand_path(File.join(File.dirname(__FILE__), 'utilities'))
+  require File.expand_path(File.join(File.dirname(__FILE__), 'graph'))
 
   class OboParser 
     attr_accessor :terms, :typedefs
